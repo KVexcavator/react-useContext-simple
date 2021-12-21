@@ -1,9 +1,12 @@
+import AddColorForm from "./AddColorForm";
+import ColorList from "./ColorList";
 
 function App() {
   return (
-    <div>
-      <h1>Context simple</h1>
-    </div>
+    <>
+      <AddColorForm />
+      <ColorList />
+    </>
   );
 }
 
